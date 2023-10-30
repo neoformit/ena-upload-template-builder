@@ -1,6 +1,9 @@
-# ena-upload
+# ENA upload templates app
 
-This template should help get you started developing with Vue 3 in Vite.
+A Vue client for creating ENA upload submission spreadsheets in a user-friendly,
+interactive UI.
+
+Bootstrapped with `npm create vue@latest`.
 
 ## Recommended IDE Setup
 
