@@ -20,10 +20,17 @@ const router = createRouter({
     {
       path: '/form-2',
       name: 'form2',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/Form2View.vue')
+    },
+    {
+      path: '/submit',
+      name: 'submit',
+      component: () => import('../views/SubmitView.vue')
+    },
+    {
+      path: '/success',
+      name: 'success',
+      component: () => import('../views/SuccessView.vue')
     }
   ]
 })
